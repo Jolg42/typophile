@@ -1,0 +1,2 @@
+# Ignore database file because GitHub limits the file size to 100 MB
+typophile.db
