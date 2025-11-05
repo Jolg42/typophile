@@ -1,0 +1,17 @@
+# Pagefind Configuration
+# https://pagefind.app/docs/config-options/
+
+site: public
+output_subdir: pagefind
+
+# Exclude these elements from search indexing
+exclude_selectors:
+  - "nav"
+  - ".sidebar"
+  - "footer"
+  - ".pagination"
+  - ".panel-footer"
+  - "#comments"
+
+# Keep these for better search results
+keep_index_url: true

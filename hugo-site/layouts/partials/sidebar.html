@@ -1,0 +1,15 @@
+<p>
+  <a href="/">All articles</a>
+  <small class="c i">{{ len .Site.RegularPages }}</small>
+</p>
+
+<ul id="facets">
+  {{ range $name, $taxonomy := .Site.Taxonomies.tags }}
+    {{ if ge $taxonomy.Count 5 }}
+      <li>
+        <a href="{{ "/tags/" | relLangURL }}{{ $name | urlize }}">{{ $name }}</a>
+        <small class="c">{{ $taxonomy.Count }}</small>
+      </li>
+    {{ end }}
+  {{ end }}
+</ul>

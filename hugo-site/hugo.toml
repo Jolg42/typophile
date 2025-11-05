@@ -1,0 +1,30 @@
+baseURL = 'http://typophile-archive.simon-cozens.org/'
+languageCode = 'en-us'
+title = 'Typophile Archive'
+
+# Pagination settings
+[pagination]
+  paginatePath = "page"
+  paginate = 25
+
+# Taxonomy definitions
+[taxonomies]
+  tag = "tags"
+
+# Site parameters
+[params]
+  description = "Typophile Typography Forum Archive (2000-2015)"
+  author = "Typophile Community"
+
+# Markup configuration
+[markup.goldmark.renderer]
+  unsafe = true  # Allow HTML in markdown for embedded content
+
+# Output formats
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+  section = ["HTML", "RSS"]
+
+# Permalinks
+[permalinks]
+  articles = "/:contentbasename/"

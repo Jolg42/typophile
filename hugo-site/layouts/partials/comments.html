@@ -1,0 +1,21 @@
+<a name="comments"></a>
+<div id="comments">
+  {{ $comments_json := .Params.comments_json }}
+  {{ if $comments_json }}
+    {{ $comments := unmarshal $comments_json }}
+    <h3>{{ len $comments }} Comment{{ if ne (len $comments) 1 }}s{{ end }}</h3>
+
+    {{ range $comments }}
+      <div class="panel panel-default">
+        <div class="panel-body">
+          {{ .content }}
+        </div>
+        <div class="panel-footer">
+          {{ if .author }}{{ .author }}{{ else }}<em>Anonymous</em>{{ end }}
+          @
+          {{ .time }}
+        </div>
+      </div>
+    {{ end }}
+  {{ end }}
+</div>

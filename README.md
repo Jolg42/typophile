@@ -18,15 +18,46 @@ I, Joël Galeran, found out about their work and created this fork in November 2
 
 ## Quick Start (Local Development)
 
-This repository uses SQLite for easy local development (no Elasticsearch required).
+This repository offers two deployment options:
 
-### Prerequisites
+### Option 1: Hugo Static Site (Recommended)
 
+**Best for**: Production deployment, CDN hosting, maximum performance
+
+Pre-built static HTML files ready to serve. No Ruby or database required!
+
+```bash
+# Serve the pre-built site (instant startup)
+./serve.sh
+
+# Or custom port
+./serve.sh 9000
+```
+
+Site available at **http://localhost:8080**
+
+**Features**:
+- ✅ 51,361 pre-generated HTML pages
+- ✅ Instant page loads (~5-10ms)
+- ✅ Client-side full-text search (Pagefind)
+- ✅ Works with any static host (GitHub Pages, Netlify, S3)
+- ✅ Zero server costs
+
+**⚠️ IMPORTANT**: Never use `hugo server` - it's too slow for 42K+ articles (3+ minute builds). Always use `./serve.sh` to serve the pre-built `hugo-site/public/` directory.
+
+See `hugo-site/README.md` for full documentation.
+
+### Option 2: Sinatra Dynamic App (Original)
+
+**Best for**: Local development, dynamic search, testing
+
+Ruby web application with SQLite database.
+
+**Prerequisites**:
 - Ruby 3.4+ (managed via rbenv)
 - Bundler
 
-### Setup
-
+**Setup**:
 ```bash
 # 1. Install rbenv (if not already installed)
 brew install rbenv ruby-build
@@ -40,14 +71,19 @@ gem install bundler
 bundle install
 
 # 4. Import data into SQLite (if typophile.db doesn't exist)
-# This imports the JSON files into a local SQLite database
 rake reindex
 
 # 5. Start the web server
 thin start
 ```
 
-The app will be available at **http://localhost:3000**
+Site available at **http://localhost:3000**
+
+**Features**:
+- ✅ Dynamic full-text search (SQLite FTS5)
+- ✅ Real-time tag filtering
+- ✅ Popularity-based ranking
+- ❌ Requires Ruby server
 
 ### Database
 
@@ -79,6 +115,8 @@ This creates a `typophile.db` file with two tables:
 
 ## Serving the content
 
+### Sinatra Dynamic App
+
 The Typophile articles are available through a front-end search interface written in [Sinatra](http://www.sinatrarb.com).
 
 ```bash
@@ -93,3 +131,30 @@ Features:
 - Tag filtering and facets
 - Popularity-based ranking
 - Pagination (25 results per page)
+
+### Hugo Static Site
+
+For production deployment, use the pre-built Hugo static site:
+
+```bash
+# Serve locally (instant startup)
+./serve.sh
+
+# Or rebuild from scratch (takes ~3.5 minutes)
+./build.sh
+
+# Or rebuild from SQLite database
+./build.sh --export
+```
+
+Visit **http://localhost:8080** to browse the static site.
+
+**Build Statistics**:
+- Articles: 42,270 markdown files
+- Generated pages: 51,361 HTML files
+- Paginator pages: 11,608
+- Aliases: 89,085 (for URL redirects)
+- Build time: ~3.5 minutes
+- Site size: ~3.5GB
+
+See `hugo-site/README.md` for complete documentation.
