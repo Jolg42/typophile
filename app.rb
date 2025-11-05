@@ -48,7 +48,8 @@ class Application < Sinatra::Base
                 end
                end.(params[:q], params[:t]),
 
-               # sort: [{date: {order: 'desc'}}],
+               q: params[:q],
+               t: params[:t],
 
                size: settings.per_page,
                from: settings.per_page * (@page-1),

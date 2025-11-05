@@ -1,67 +1,95 @@
-# typophile.github.io
+# typophile.com archive
 
-This repo contains a simple read-only copy of typophile, reconstructed with love. 
+This repo contains a simple read-only copy of typophile, reconstructed with love.
 
-# Live Site: <http://typophile-archive.simon-cozens.org>
+# Live Site: TODO
 
-[Typophile](https://en.wikipedia.org/wiki/Typophile_(Internet_forum)) was a fantastic type design web forum started in 2000 that ran until 2015. 
-It was a cornucopia of type design and font engineering trivia, with threads on every important development in the field in the period. 
-But it was often overrun with spam, and after 6 months of total shutdown it seems, sadly, not likely to come back any time soon. 
+**⚠️ Note**: This repository has been converted from Elasticsearch to **SQLite** for easier local development. Elasticsearch has been removed as a dependency.
+
+[Typophile.com](https://en.wikipedia.org/wiki/Typophile_(Internet_forum)) was a fantastic type design web forum started in 2000 that ran until 2015.
+It was a cornucopia of type design and font engineering trivia, with threads on every important development in the field in the period.
+But it was often overrun with spam, and after 6 months of total shutdown it seems, sadly, not likely to come back any time soon.
 
 In response to the typophile tragedy, during January 2016 Simon Cozens of SILE fame developed a script to download an archive from the [Archive.org Wayback Machine](https://web.archive.org) and Dave Crossland worked with him to convert the raw material into this site. 
+See https://github.com/06b/typophile.github.io
 
-## How you can help
+I, Joël Galeran, found out about their work and created this fork in November 2025.
 
-1. Look out for places where details have not been picked up (e.g. Commenters' names.) and [open an issue](https://github.com/typophile/typophile.github.io/issues). 
-   To help bring the details back, use the "view original" link to look at the original HTML and figure out a CSS selector which identified them so they can be picked up.
 
-2. Suggest ways to improve the design of the website and improve the usability, by [opening an issue](https://github.com/typophile/typophile.github.io/issues)
+## Quick Start (Local Development)
 
-3. Let everyone know about the most important discussion threads, by posting links to them along with a note about why they are important to [issue #4](https://github.com/typophile/typophile.github.io/issues/4)
+This repository uses SQLite for easy local development (no Elasticsearch required).
 
-4. Figure out how to extract 2nd or later discussion pages, [Issue #2](https://github.com/typophile/typophile.github.io/issues/2)
+### Prerequisites
 
-5. Review and contribute to any other [open issues](https://github.com/typophile/typophile.github.io/issues/)
+- Ruby 3.4+ (managed via rbenv)
+- Bundler
 
-## Obtaining the HTML files
+### Setup
 
-The Wayback Machine has a number of APIs, one of which is the [CDX Server API](https://github.com/internetarchive/wayback/tree/master/wayback-cdx-server).
-This lists all URIs archived from a given site, and can be called on typophile like this:
+```bash
+# 1. Install rbenv (if not already installed)
+brew install rbenv ruby-build
 
-    curl 'http://web.archive.org/cdx/search/cdx?url=*.typophile.com&fl=urlkey,timestamp' > urls.txt ;
+# 2. Install Ruby 3.4.7
+rbenv install 3.4.7
+rbenv local 3.4.7
 
-This will take a couple of minutes, and will return the complete list of all 471,100 URLs that it knows about. 
-Since there are 1,796 duplicates we can remove them:
+# 3. Install dependencies
+gem install bundler
+bundle install
 
-    awk '{print $1}' urls.txt | sort | uniq > urls-unique.txt ;
+# 4. Import data into SQLite (if typophile.db doesn't exist)
+# This imports the JSON files into a local SQLite database
+rake reindex
 
-To get the forum discussion pages, run
+# 5. Start the web server
+thin start
+```
 
-    grep '/node/' urls-unique.txt | grep -v cms | grep -v crss | perl wayback-typophile.pl
+The app will be available at **http://localhost:3000**
 
-The script creates a `typophile.com` directory with a copy of each page, as it was the last time it was archived before it got wiped. The contents of this directory come to around 1.3Gb of data, and so are not included in this repository.
+### Database
 
-## Extracting the content
+- **Database file**: `typophile.db` (227MB, SQLite3)
+- **Articles**: 42,270 forum posts with full-text search
+- **Search engine**: SQLite FTS5 (full-text search with Porter stemming)
+- **Import time**: ~2 minutes for 44K JSON files
 
-The next stage is to parse and index this content. Use `rake convert` to turn the `typophile.com` directory into a directory full of JSON files. The output of this process is included in the repository for convenience.
+**What changed from the original?**
+- ❌ **Removed**: Elasticsearch, Java, elasticsearch-fileimport JAR
+- ✅ **Added**: SQLite3 (via ruby sqlite3 gem)
+- ✅ **Benefit**: Zero external dependencies, single database file, works offline
 
 ## Indexing the content
 
-You now need an Elasticsearch server, and the [elasticsearch-fileimport](https://github.com/codecentric/elasticsearch-fileimport) tool. Build the importer with `mvn` and copy the resulting JAR file into this directory. Then run `rake reindex`. (If you are using Homebrew, you may first need to add the following to `file_import_settings.yml`:
+The JSON files in the `json/` directory are imported into a SQLite database:
 
-    cluster:
-        name: elasticsearch_youruserid
+```bash
+# Import all JSON files into typophile.db
+rake reindex
 
-)
+# Or run the import script directly
+ruby import_to_sqlite.rb
+```
+
+This creates a `typophile.db` file with two tables:
+- `articles` - Main article data
+- `articles_fts` - Full-text search index (FTS5)
 
 ## Serving the content
 
-The Typophile articles are then available through a front-end search interface written in [Sinatra](http://www.sinatrarb.com). Install Sinatra (`bundle install` should do all that) and then run `thin start`. Hey presto, you have your own Typophile archive.
+The Typophile articles are available through a front-end search interface written in [Sinatra](http://www.sinatrarb.com).
 
-* * * 
+```bash
+# Start the Sinatra web server
+thin start
+```
 
-> The phrase ‘democratization of typography’ has become common, referring to the wide availability of the tools of production for type and typographic design. 
-> One may take this with some scepticism: after all, for the majority, the generation and production of these tools is still largely in the hands of a few corporations — though the [software freedom] movement may provide an alternative. 
-> The watchwords remain: doubt, critique, reason, hope.
+Visit **http://localhost:3000** to browse the archive.
 
-Robin Kinross, "Modern Typography" (2004, p.182, the final page.)
+Features:
+- Full-text search across articles
+- Tag filtering and facets
+- Popularity-based ranking
+- Pagination (25 results per page)

@@ -3,7 +3,7 @@
   <div class="col-sm-2">
     <p><a href="/">All articles</a> <small class="c i"><%= @articles.total %></small></p>
     <ul id="facets">
-    <% @articles.response.aggregations.tags.buckets.each do |term| %>
+    <% @articles.aggregations['tags']['buckets'].each do |term| %>
     <li><a href="/?t=<%= term['key'] %>"><%= term['key'] %></a> <small class="c"><%= term['doc_count'] %></small></li>
     <% end %>
     </ul>
@@ -37,7 +37,7 @@
     </div>
   <% end  %>
 
-  <% if @articles.size > 0 && @page.next <= @pages %>
+  <% if @articles.size > 0 && (@page + 1) <= @pages %>
   <nav>
     <ul class="pagination">
       <% [ ([@page-5,1].max .. [@page+5,@pages].min).to_a, @pages ].flatten.uniq.each do |p| %>
