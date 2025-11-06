@@ -8,7 +8,7 @@
     {{ range $comments }}
       <div class="panel panel-default">
         <div class="panel-body">
-          {{ .content }}
+          {{ .content | safeHTML }}
         </div>
         <div class="panel-footer">
           {{ if .author }}{{ .author | safeHTML  }}{{ else }}<em>Anonymous</em>{{ end }}
