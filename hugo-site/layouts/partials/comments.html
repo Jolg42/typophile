@@ -11,7 +11,7 @@
           {{ .content }}
         </div>
         <div class="panel-footer">
-          {{ if .author }}{{ .author }}{{ else }}<em>Anonymous</em>{{ end }}
+          {{ if .author }}{{ .author | safeHTML  }}{{ else }}<em>Anonymous</em>{{ end }}
           @
           {{ .time }}
         </div>

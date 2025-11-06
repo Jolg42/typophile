@@ -11,7 +11,7 @@
 
       <!-- Article Metadata -->
       <div class="meta text-right">
-        <span class="author">{{ .Params.author }}</span><br>
+        <span class="author">{{ .Params.author | safeHTML }}</span><br>
         <span class="time">{{ .Date.Format "2 January, 2006 - 3:04pm" }}</span>
         <br/>
         {{ range .Params.tags }}

@@ -43,7 +43,7 @@
             {{ .Content }}
           </div>
           <div class="panel-footer">
-            <span class="author">{{ .Params.author }}</span> @
+            <span class="author">{{ .Params.author | safeHTML }}</span> @
             <span class="time">{{ .Date.Format "2 Jan 2006" }}</span>
             <div class="pull-right">
               {{ range .Params.tags }}
