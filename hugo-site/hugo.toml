@@ -5,7 +5,7 @@ title = 'Typophile Archive'
 # Pagination settings
 [pagination]
   paginatePath = "page"
-  paginate = 25
+  paginate = 50  # Shows x items per page (articles, tags, etc.)
 
 # Taxonomy definitions
 [taxonomies]
