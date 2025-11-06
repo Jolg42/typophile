@@ -33,7 +33,7 @@
           <h4>Navigation</h4>
         </div>
         <div class="panel-body">
-          <p><a href="/">← Back to archive</a></p>
+          <p><a href="{{ "/" | relURL }}">← Back to archive</a></p>
           {{ if .Params.forum }}
             <p><strong>Forum:</strong> {{ .Params.forum }}</p>
           {{ end }}

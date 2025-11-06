@@ -13,7 +13,7 @@
       <div class="alert alert-info">
         <strong>Filtered by tag:</strong> {{ .Title }}
         <span class="badge">{{ len .Pages }} article{{ if ne (len .Pages) 1 }}s{{ end }}</span>
-        <a href="/" class="pull-right">Clear filter</a>
+        <a href="{{ "/" | relURL }}" class="pull-right">Clear filter</a>
       </div>
 
       {{ if eq (len .Paginator.Pages) 0 }}

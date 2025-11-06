@@ -1,5 +1,5 @@
 <p>
-  <a href="/">All articles</a>
+  <a href="{{ "/" | relURL }}">All articles</a>
   <small class="c i">{{ len .Site.RegularPages }}</small>
 </p>
 
@@ -7,7 +7,7 @@
   {{ range $name, $taxonomy := .Site.Taxonomies.tags }}
     {{ if ge $taxonomy.Count 5 }}
       <li>
-        <a href="{{ "/tags/" | relLangURL }}{{ $name | urlize }}">{{ $name }}</a>
+        <a href="{{ printf "/tags/%s/" ($name | urlize) | relURL }}">{{ $name }}</a>
         <small class="c">{{ $taxonomy.Count }}</small>
       </li>
     {{ end }}
