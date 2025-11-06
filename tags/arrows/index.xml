@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Arrows on Typophile Archive</title><link>http://typophile-archive.simon-cozens.org/tags/arrows/</link><description>Recent content in Arrows on Typophile Archive</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Thu, 23 Oct 2014 00:40:00 +0200</lastBuildDate><atom:link href="http://typophile-archive.simon-cozens.org/tags/arrows/index.xml" rel="self" type="application/rss+xml"/><item><title>Mapping fists</title><link>http://typophile-archive.simon-cozens.org/120773/</link><pubDate>Thu, 23 Oct 2014 00:40:00 +0200</pubDate><guid>http://typophile-archive.simon-cozens.org/120773/</guid><description>&lt;p&gt;So, as a sort of oddity I&amp;rsquo;m adding fists/manicules to my latest typeface and I figured arrows would be handy as well. Now, I have them mapped with the appropriate unicodes as far as possible. To make them more accessible I figured I would create a stylistic set so you can type &amp;gt;&amp;gt; to make an arrow. However, when I add the code and I click on compile OpenType program it tells me it has to abort because of errors.&lt;/p&gt;</description></item><item><title>Please help: Integrating Arrows</title><link>http://typophile-archive.simon-cozens.org/115057/</link><pubDate>Tue, 18 Mar 2014 02:49:00 +0100</pubDate><guid>http://typophile-archive.simon-cozens.org/115057/</guid><description>&lt;p&gt;Hello Forum,&lt;/p&gt;
+&lt;p&gt;I am stuck at one point in FontLab and hope someone can help me.&lt;br&gt;
+I would like to integrate arrows in a TrueType font using FontLab: arrow right and arrow left.&lt;br&gt;
+The font should be used as a webfont later and i don´t want to build in images for arrows anymore.&lt;/p&gt;
+&lt;p&gt;To achieve this I proceeded as follows in FontLab:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Create a Glyph in an empty grey box wich is marked yellow in the font-window&lt;br&gt;
+I understand that glyphs, that are not yellow do not belong to the currently selected encoding, codepage or Unicode range&lt;/li&gt;
+&lt;li&gt;then i rename the glypgh-name to &amp;ldquo;arrowright&amp;rdquo; (using the context-Menue) and generate the unicode index for it (2192) using the little diamond&lt;/li&gt;
+&lt;li&gt;After that action the Glyph is marked as grey (unencoded?) and it goes to the end-section in the font-window.&lt;br&gt;
+The arrow does not appear in the exported font. I tried TrueType and OpenType.&lt;br&gt;
+The font consist of 234 glyphs.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Do you have any ideas, what i am doing wrong?&lt;br&gt;
+Does the unicode codepage not support arrows?&lt;br&gt;
+I would be grateful for any hint.&lt;/p&gt;</description></item><item><title>Arrows</title><link>http://typophile-archive.simon-cozens.org/101886/</link><pubDate>Sun, 31 Mar 2013 12:14:00 +0200</pubDate><guid>http://typophile-archive.simon-cozens.org/101886/</guid><description>&lt;p&gt;Hi, Typophilers,&lt;/p&gt;
+&lt;p&gt;I use mac and word 2011. Sometimes I place directional arrows into word documents to indicate direction or flow and was wondering. In the fonts I am using, I can see that they have encodings for the following:&lt;/p&gt;
+&lt;p&gt;U+2190 arrowleft&lt;br&gt;
+U+2191 arrowup&lt;br&gt;
+U+2192 arrowright&lt;br&gt;
+U+2193 arrowdown&lt;br&gt;
+U+2196 arrowupleft&lt;br&gt;
+U+2197 arrowupright&lt;br&gt;
+U+2198 arrowdownright and&lt;br&gt;
+U+2199 arrowdownleft&lt;/p&gt;
+&lt;p&gt;When I use the symbol inserter (see screen.png) a symbol is inserted, however, it is not from the font I am using, rather wingdings (see word doc.png) . Is there a way to get word to recognise the font, or shortcuts that can override the limitations? I have already tried double hyphen lessthan ( &amp;ndash;&amp;gt; ) to make a right arrow, however, this creates another type of arrow that is not editable (it does not appear to be part of any font).&lt;/p&gt;</description></item></channel></rss>

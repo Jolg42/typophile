@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Macros Traceback Nameerror on Typophile Archive</title><link>http://typophile-archive.simon-cozens.org/tags/macros-traceback-nameerror/</link><description>Recent content in Macros Traceback Nameerror on Typophile Archive</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 06 Nov 2013 05:03:00 +0100</lastBuildDate><atom:link href="http://typophile-archive.simon-cozens.org/tags/macros-traceback-nameerror/index.xml" rel="self" type="application/rss+xml"/><item><title>NameError: name 'fl' is not defined</title><link>http://typophile-archive.simon-cozens.org/107172/</link><pubDate>Wed, 06 Nov 2013 05:03:00 +0100</pubDate><guid>http://typophile-archive.simon-cozens.org/107172/</guid><description>&lt;p&gt;I&amp;rsquo;m having an issue here with some macros.&lt;br&gt;
+I&amp;rsquo;ve installed Font Lab 5.1.4 on my Mac at home, but I&amp;rsquo;m having this feedback when running some macros.&lt;br&gt;
+I&amp;rsquo;ve noticed that it&amp;rsquo;s the same kind of problems, about the fl not defined.&lt;/p&gt;
+&lt;p&gt;Traceback (most recent call last):&lt;br&gt;
+File &amp;ldquo;&amp;rdquo;, line 22, in&lt;br&gt;
+NameError: name &amp;lsquo;fl&amp;rsquo; is not defined&lt;/p&gt;
+&lt;p&gt;Could you help me with that stuff?&lt;br&gt;
+Cheers!&lt;/p&gt;</description></item></channel></rss>

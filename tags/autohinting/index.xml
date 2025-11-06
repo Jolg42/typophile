@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Autohinting on Typophile Archive</title><link>http://typophile-archive.simon-cozens.org/tags/autohinting/</link><description>Recent content in Autohinting on Typophile Archive</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Mon, 24 Feb 2014 09:12:00 +0100</lastBuildDate><atom:link href="http://typophile-archive.simon-cozens.org/tags/autohinting/index.xml" rel="self" type="application/rss+xml"/><item><title>Different Auto-hinting tests and results</title><link>http://typophile-archive.simon-cozens.org/114449/</link><pubDate>Mon, 24 Feb 2014 09:12:00 +0100</pubDate><guid>http://typophile-archive.simon-cozens.org/114449/</guid><description>&lt;p&gt;&lt;strong&gt;Hi typophiles&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;m trying to figure out which is the best quick auto-hinting solution, right now I know 4 (quick) options:&lt;/p&gt;
+&lt;p&gt;• No Hinting&lt;br&gt;
+• Fontlab Hinting (with proper stems/blue zones)&lt;br&gt;
+• FontSquirrel&lt;br&gt;
+• TTFautohint Program (thanks to Dave Crossland)&lt;/p&gt;
+&lt;p&gt;(I&amp;rsquo;ve attached the results) The question is:&lt;br&gt;
+Do you know any other quick auto-hinting options that might be worth a try?&lt;/p&gt;
+&lt;p&gt;Thanks!&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;*I&amp;rsquo;m using Chrome on Windows 8.1, and the tests with Impallari testing tool&lt;/em&gt;&lt;/p&gt;</description></item></channel></rss>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Private Use on Typophile Archive</title><link>http://typophile-archive.simon-cozens.org/tags/private-use/</link><description>Recent content in Private Use on Typophile Archive</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 27 Jan 2010 07:22:00 +0100</lastBuildDate><atom:link href="http://typophile-archive.simon-cozens.org/tags/private-use/index.xml" rel="self" type="application/rss+xml"/><item><title>UNICODE Due Diligence in advance of assigning Private Use UNICODES</title><link>http://typophile-archive.simon-cozens.org/66706/</link><pubDate>Wed, 27 Jan 2010 07:22:00 +0100</pubDate><guid>http://typophile-archive.simon-cozens.org/66706/</guid><description>&lt;p&gt;I am about to assign a bunch (approx. 500) of Private Use UNICODE to the following which do not have official UNICODES and are not yet [to my knowledge] covered by Adobe Glyph List:&lt;/p&gt;
+&lt;p&gt;Nut fractions&lt;br&gt;
+Annotation Superiors&lt;br&gt;
+Superior Punctuation&lt;br&gt;
+Small Cap Numbers&lt;br&gt;
+Small Caps Punctuation&lt;br&gt;
+Tabulated Numbers&lt;br&gt;
+Titling Capitals (x140ish)&lt;br&gt;
+Titling Lowercase (x140ish)&lt;br&gt;
+Titling Numbers&lt;br&gt;
+Reversed Encapsulated Sansserif Capitals&lt;br&gt;
+and perhaps a few other ornaments (not dingbats) etc.&lt;/p&gt;
+&lt;p&gt;Q. Are there any established Code-blocks for the listed glyphs above *agreed* between foundries?&lt;/p&gt;</description></item></channel></rss>

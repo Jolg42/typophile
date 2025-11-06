@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Pseudorandom Calt OT on Typophile Archive</title><link>http://typophile-archive.simon-cozens.org/tags/pseudorandom-calt-ot/</link><description>Recent content in Pseudorandom Calt OT on Typophile Archive</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Mon, 24 Nov 2014 07:50:00 +0100</lastBuildDate><atom:link href="http://typophile-archive.simon-cozens.org/tags/pseudorandom-calt-ot/index.xml" rel="self" type="application/rss+xml"/><item><title>Mimicking old print</title><link>http://typophile-archive.simon-cozens.org/121540/</link><pubDate>Mon, 24 Nov 2014 07:50:00 +0100</pubDate><guid>http://typophile-archive.simon-cozens.org/121540/</guid><description>&lt;p&gt;In this thread &lt;a href="http://web.archive.org/web/20150317234413/http:/typophile.com/node/121385" title="http://typophile.com/node/121385"&gt;http://typophile.com/node/121385&lt;/a&gt; OP put a scanned page from a 1961 book. Used types have somewhat twitched appearance. As I made earlier an OT feature which does that effect I modified a font (in that case Plantin) to recreate that look.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;FEA file:&lt;br&gt;
+@class_alt1 contains UC and lc letters, space, comma, etc&lt;br&gt;
+@class_alt2 contains as above, slightly displaced, names with .alt2&lt;br&gt;
+etc up to @class_alt10 ( .alt10)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;I made new glyphs - and copied the references of original glyphs and add the .alt1 to their names&lt;/p&gt;</description></item></channel></rss>

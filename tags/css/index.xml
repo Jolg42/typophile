@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>CSS on Typophile Archive</title><link>http://typophile-archive.simon-cozens.org/tags/css/</link><description>Recent content in CSS on Typophile Archive</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Thu, 05 Mar 2015 03:11:00 +0100</lastBuildDate><atom:link href="http://typophile-archive.simon-cozens.org/tags/css/index.xml" rel="self" type="application/rss+xml"/><item><title>Overlapping ontent with "low" browser resolution</title><link>http://typophile-archive.simon-cozens.org/123633/</link><pubDate>Thu, 05 Mar 2015 03:11:00 +0100</pubDate><guid>http://typophile-archive.simon-cozens.org/123633/</guid><description>&lt;p&gt;I realise that in this day and age one is probably expected to have a moderately larg browser window, but nevertheless I like to use my brower non-maximized. This causes the right menu bar to overlap with the forum listings and the top menu with the top-left logo, as shown in the attached screenshot.&lt;/p&gt;
+&lt;p&gt;One possible solution to the forum listing issue is to make &lt;code&gt;#squeeze&lt;/code&gt; be &lt;code&gt;overflow-x: auto&lt;/code&gt;, which requires me to scroll horizontally to see the rightmost parts of the table, but that&amp;rsquo;s perfectly fine. The top menu seems a bit trickier to do something about with the current CSS, which seems to rely pretty heavily on absolute positioning. The top menu isn&amp;rsquo;t that much of an issue though, so feel free to ignore that.&lt;/p&gt;</description></item><item><title>Choosing cvXY and ssXY</title><link>http://typophile-archive.simon-cozens.org/116121/</link><pubDate>Mon, 28 Apr 2014 09:17:00 +0200</pubDate><guid>http://typophile-archive.simon-cozens.org/116121/</guid><description>&lt;p&gt;Is there any informal standard on how to choose which character variant (&lt;code&gt;cv01&lt;/code&gt; through &lt;code&gt;cv99&lt;/code&gt;) or stylistic set (&lt;code&gt;cv01&lt;/code&gt; through &lt;code&gt;cv20&lt;/code&gt;) a certain glyph or group of glyphs should go into?&lt;br&gt;
+Alternatively, has someone conducted a survey what actual typefaces put in these features?&lt;/p&gt;
+&lt;p&gt;With &lt;a href="http://web.archive.org/web/20150420032609/http:/www.w3.org/TR/css-fonts-3/#font-feature-values"&gt;CSS Fonts 3&lt;/a&gt;, there is a higher-level language to add mnemonics for these enumerated features (and some more) when used with the &lt;code&gt;font-variant-alternates&lt;/code&gt; property.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;@font-feature-values FontFamilyName {
+ @styleset {insular: 1; uncial: 2; unicase: 3;} /* ssXY */
+ @character-variant {initial: 1; medial: 2; final: 3;} /* cvXY */
+ @stylistic {cute: 1;} /* salt index */
+ @swash {curly: 1; longish: 2; playful: 3;} /* swsh or cswh index */
+ @ornaments {ugly: 1; floral: 2; techy: 3;} /* ornm index */
+ @annotation {circled: 1; disced: 2; squared: 3; inverse: 4} /* nalt index */
+ /* identifiers in front of colon are user defined and can be shared by fonts */
+ /* numbers after the colon are font-dependent */
+}
+&lt;/code&gt;&lt;/pre&gt;</description></item><item><title>Opinions on the under-supported CSS text-align-last</title><link>http://typophile-archive.simon-cozens.org/103294/</link><pubDate>Sat, 25 May 2013 17:44:00 +0200</pubDate><guid>http://typophile-archive.simon-cozens.org/103294/</guid><description>&lt;p&gt;I was wondering what peoples opinions on the very under-supported (IE5.5 and Firefox) CSS feature called &amp;rsquo;text-align-center&amp;rsquo; are.&lt;/p&gt;
+&lt;p&gt;I am working on a website project and did some text aligning. Left and center just felt off to me (very subjective, i know), and I was liking the result that text-align: justify was producing. There were some larger gaps between words, as justify normally does, but that can alleviated with things like letter-spacing, word-spacing and other font adjustment properties.&lt;/p&gt;</description></item><item><title>Sous Style Font ID - Sans and Serif Font ID??</title><link>http://typophile-archive.simon-cozens.org/102481/</link><pubDate>Tue, 23 Apr 2013 10:06:00 +0200</pubDate><guid>http://typophile-archive.simon-cozens.org/102481/</guid><description>&lt;p&gt;Hi Typophiles,&lt;/p&gt;
+&lt;p&gt;Wondering if you could help me out with IDing the fonts used on this site: &lt;a href="http://web.archive.org/web/20140715002430/http:/www.sousstyle.com/"&gt;Sous Style&lt;/a&gt;. I&amp;rsquo;ve also attached a screen shot.&lt;/p&gt;
+&lt;p&gt;It looks like they&amp;rsquo;re using a serif (in the CSS it specifies Baskerville, but I&amp;rsquo;ve not known Baskerville to look like that) and an unknown &amp;ldquo;Geometric Light&amp;rdquo; embedded typeface - but I&amp;rsquo;m having no luck identifying either.&lt;/p&gt;
+&lt;p&gt;Thanks much!!&lt;br&gt;
+Michelle&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://web.archive.org/web/20140715002430im_/http:/typophile.com/files/SousStyleSite_5854.jpg" alt=""&gt;&lt;/p&gt;</description></item><item><title>Type Fun01: A Typography 101 website I made for my Digital Interaction class</title><link>http://typophile-archive.simon-cozens.org/100571/</link><pubDate>Fri, 15 Feb 2013 14:14:00 +0100</pubDate><guid>http://typophile-archive.simon-cozens.org/100571/</guid><description>&lt;p&gt;I made this introduction to typography website a couple weeks back for a class project. I wanted to give the basics of type in a super dumbed-down way. What do you guys think?&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://web.archive.org/web/20130817033247/http:/willryan.us/typefun01/" title="http://willryan.us/typefun01/"&gt;http://willryan.us/typefun01/&lt;/a&gt;&lt;/p&gt;</description></item><item><title>css typography</title><link>http://typophile-archive.simon-cozens.org/67988/</link><pubDate>Wed, 03 Mar 2010 07:18:00 +0100</pubDate><guid>http://typophile-archive.simon-cozens.org/67988/</guid><description>&lt;p&gt;Hi, longtime lurker here, best type site in the world!&lt;/p&gt;
+&lt;p&gt;I did a search but had no luck, even searched google using the site: command, topics came up, but when clicked on, did not go where it should, so I am posting here. I am a web designer and with some down time, I have been focusing more on type. Do you have any favorite css typography sites that you visit and can recommend?&lt;/p&gt;</description></item><item><title>OpenType comes to CSS3</title><link>http://typophile-archive.simon-cozens.org/67919/</link><pubDate>Mon, 01 Mar 2010 13:48:00 +0100</pubDate><guid>http://typophile-archive.simon-cozens.org/67919/</guid><description>&lt;p&gt;Nobody else seems to have posted this, so I will: The current &lt;a href="http://web.archive.org/web/20131014051941/http:/dev.w3.org/csswg/css3-fonts/" title="CSS3 Fonts Module"&gt;CSS3 Fonts Module&lt;/a&gt; provides a syntax to use CSS to declare use of a few dozen OpenType properties. If I have the list correct, they are:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;code&gt;afrc&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;calt&lt;/code&gt;, &lt;code&gt;clig&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;calt&lt;/code&gt;, &lt;code&gt;clig&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;cswh &lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;dlig&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;dlig&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;frac&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;fwid&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;hist&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;hlig&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;hlig&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;hojo&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;jp04&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;jp78&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;jp83&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;jp90&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;liga&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;liga&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;lnum&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;nalt &lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;nlck&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;onum&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;ornm &lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;pcap&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;pnum&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;pwid&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;ruby&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;salt &lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;smcp&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;smpl&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;ss&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;swsh &lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;titl&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;tnam&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;tnum&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;trad&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;unic&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;zero&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Remember: This is merely a proposal. CSS3 has been broken into modules so that that makers of browsers (etc.) can pick and choose which modules to support rather than being offered a package deal of every single CSS feature, which, experience proves, is too much to handle at once. (Hence it is impossible to state that a browser “supports CSS3.”)&lt;/p&gt;</description></item><item><title>CSS improvements</title><link>http://typophile-archive.simon-cozens.org/66674/</link><pubDate>Tue, 26 Jan 2010 11:49:00 +0100</pubDate><guid>http://typophile-archive.simon-cozens.org/66674/</guid><description>&lt;ul&gt;
+&lt;li&gt;Main CSS &lt;a href="http://web.archive.org/web/20150419072221/http:/jigsaw.w3.org/css-validator/validator?uri=http%3A%2F%2Ftypophile.com&amp;amp;profile=css21&amp;amp;usermedium=all&amp;amp;warning=1&amp;amp;lang=en" title="Validator report"&gt;has two validation errors&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;I think the off-grey text colour (&lt;code&gt;#333&lt;/code&gt;) is too light, especially on the grey background. I would just make the text flat black in that case.&lt;/li&gt;
+&lt;li&gt;Hyperlinks are too difficult to distinguish from body copy. This isn’t just bad usability; it also &lt;a href="http://web.archive.org/web/20150419072221/http:/www.w3.org/WAI/WCAG20/quickref/#qr-visual-audio-contrast-without-color" title="Use of Colo[u]r"&gt;violates WCAG 2&lt;/a&gt;, but a lot of things here do. The colour is too pale. You additionally need some kind of underline (&lt;code&gt;border-bottom&lt;/code&gt; solves the problem of amputating descenders found with &lt;code&gt;text-decoration: underline&lt;/code&gt;).&lt;/li&gt;
+&lt;li&gt;You need to be much more specific in styling links. Styling plain &lt;code&gt;a&lt;/code&gt; catches every anchor, including invisible, non-link anchors. You want &lt;code&gt;a:link&lt;/code&gt; then &lt;code&gt;a:visited&lt;/code&gt; then the pair of &lt;code&gt;a:hover,a:active&lt;/code&gt; (defined together to get around IE6 bugs). Other combinations are possible, of course. (Eric Meyer’s &lt;a href="http://web.archive.org/web/20150419072221/http:/meyerweb.com/eric/thoughts/2007/06/11/who-ordered-the-link-states/" title="Who ordered the link states?"&gt;standard advice&lt;/a&gt; is to specify them in order of “&lt;code&gt;L&lt;/code&gt;o&lt;code&gt;V&lt;/code&gt;e’s &lt;code&gt;H&lt;/code&gt;urts &lt;code&gt;F&lt;/code&gt;ade &lt;code&gt;A&lt;/code&gt;way,” but some experts disagree.)&lt;/li&gt;
+&lt;li&gt;Unless you have a serious design intent in a well-planned layout, I don’t think it’s a good idea to mess with visitors’ default font size. Hence &lt;code&gt;font-size: 1em&lt;/code&gt; (or &lt;code&gt;100%&lt;/code&gt;) is advisable for body copy. You’ve got variously .9em and .85em, which explains why the type is too damned small. (And those numbers can multiply together, as you know.) I see a computed 11px type size in Safari 4. This is pretty small.&lt;/li&gt;
+&lt;li&gt;We don’t have a print CSS, which is rather shocking. It’s quite easy to put together, and can be included in the main CSS without recourse to a separate file (put it all inside &lt;code&gt;@media print { }&lt;/code&gt;).&lt;/li&gt;
+&lt;li&gt;We don’t have a mobile CSS, or, as it has devolved at present, a CSS for iPhones/iTouches and other Mobile WebKit browsers. These are more troublesome to set up (ask &lt;a href="http://web.archive.org/web/20150419072221/http:/metatalk.metafilter.com/18420/" title="iPhone CSS for MetaFilter"&gt;PB at MetaFilter&lt;/a&gt; for help); if you’re too specific in your selectors, you’ll leave out mobile devices that could actually use the stylesheet; and, significantly, the whole enterprise makes a mockery of the &lt;code&gt;handheld&lt;/code&gt; media type, which was supposed to solve all our problems but obviously won’t.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Dreamweaver, Web, CSS and HTML for typographers</title><link>http://typophile-archive.simon-cozens.org/66023/</link><pubDate>Thu, 07 Jan 2010 10:48:00 +0100</pubDate><guid>http://typophile-archive.simon-cozens.org/66023/</guid><description>&lt;p&gt;I am a traditional typographer having difficulty understanding HTML tools, some are easy, such as &lt;em&gt;emphasis&lt;/em&gt;; though why &amp;ldquo;ital&amp;rdquo; wasn&amp;rsquo;t used rather than &amp;ldquo;em&amp;rdquo; is a mystery; shouldn&amp;rsquo;t &amp;ldquo;em&amp;rdquo; have been reserved for an em-space?&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://web.archive.org/web/20130823062845im_/http:/typophile.com/files/Type-example_3997.jpg" alt=""&gt;&lt;/p&gt;
+&lt;p&gt;The above example is easy to set in typographic programs such as QuarkXPress or InDesign, and the coding made sense on Quadex and other type systems, back in the day. Note that there are hanging numerals in bold, the text is set 9/11, with alignment for breaking lines, and 2 pts additional space between paragraph returns.&lt;/p&gt;</description></item></channel></rss>

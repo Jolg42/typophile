@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Lines on Typophile Archive</title><link>http://typophile-archive.simon-cozens.org/tags/lines/</link><description>Recent content in Lines on Typophile Archive</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sat, 20 Mar 2010 06:27:00 +0100</lastBuildDate><atom:link href="http://typophile-archive.simon-cozens.org/tags/lines/index.xml" rel="self" type="application/rss+xml"/><item><title>College Project</title><link>http://typophile-archive.simon-cozens.org/68581/</link><pubDate>Sat, 20 Mar 2010 06:27:00 +0100</pubDate><guid>http://typophile-archive.simon-cozens.org/68581/</guid><description>&lt;p&gt;Hey Guys, we were asked to make a font under these conditions:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Use only Horizontal and Vertical Lines&lt;/li&gt;
+&lt;li&gt;Cannot simulate a curve leaving pixels white on the corners.&lt;/li&gt;
+&lt;li&gt;Uppercase Characters and Numbers Only.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This is what i have so far - &lt;a href="http://web.archive.org/web/20150317091545/http:/fontstruct.fontshop.com/fontstructions/show/nepo_3" title="http://fontstruct.fontshop.com/fontstructions/show/nepo_3"&gt;http://fontstruct.fontshop.com/fontstructions/show/nepo_3&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Height is 7px and Width is 10px&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Small Version&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src="http://web.archive.org/web/20150317091545im_/http:/typophile.com/files/nepofont_4319.PNG" alt=""&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Medium&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src="http://web.archive.org/web/20150317091545im_/http:/typophile.com/files/nepofontmedium_6016.PNG" alt=""&gt;&lt;/p&gt;
+&lt;p&gt;Some of my thoughts:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The D looks weird&lt;/li&gt;
+&lt;li&gt;Is my X Valid?&lt;/li&gt;
+&lt;li&gt;Other ways to make the M, N and W ?&lt;/li&gt;
+&lt;li&gt;The S and the 5 look too much alike?&lt;/li&gt;
+&lt;li&gt;Help with Spacing&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Mysterious Lines over Glyphs</title><link>http://typophile-archive.simon-cozens.org/65853/</link><pubDate>Sat, 02 Jan 2010 23:45:00 +0100</pubDate><guid>http://typophile-archive.simon-cozens.org/65853/</guid><description>&lt;p&gt;I&amp;rsquo;m currently working on a font and I&amp;rsquo;ve found an issue which baffles me, shown here: &lt;a href="http://web.archive.org/web/20131011150553/http:/members.optusnet.com.au/d-esign/misc/brushy_glitch.png"&gt;http://members.optusnet.com.au/d-esign/misc/brushy_glitch.png&lt;/a&gt;. As you can see there are these out of place lines over the &amp;ldquo;u&amp;rdquo; and &amp;ldquo;y&amp;rdquo; glyphs, and they&amp;rsquo;re not the only affected glyphs. The issue crops up in Photoshop when the font is displayed at small sizes or has anti-aliasing off. What&amp;rsquo;s weird is that the lines don&amp;rsquo;t actually exist on the vectors, FontLab renders them appropriately and there&amp;rsquo;s nothing suspect on the offending glyphs which sets them appart from the others that render properly.&lt;/p&gt;</description></item></channel></rss>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Brill on Typophile Archive</title><link>http://typophile-archive.simon-cozens.org/tags/brill/</link><description>Recent content in Brill on Typophile Archive</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sun, 16 Jun 2013 06:11:00 +0200</lastBuildDate><atom:link href="http://typophile-archive.simon-cozens.org/tags/brill/index.xml" rel="self" type="application/rss+xml"/><item><title>Brill typeface: Is this a Word issue, a typeface issue or a PDF creation issue?</title><link>http://typophile-archive.simon-cozens.org/103890/</link><pubDate>Sun, 16 Jun 2013 06:11:00 +0200</pubDate><guid>http://typophile-archive.simon-cozens.org/103890/</guid><description>&lt;p&gt;In my pursuit of finding the typefaces that correctly render both &lt;strong&gt;the combining diacritics&lt;/strong&gt; and Serbian versions of Cyrillic italics letters I&amp;rsquo;ve just checked how does &lt;em&gt;Brill&lt;/em&gt; fare. Weirdly, it only fails to convert one letter properly, but what is weird is that even though the letters appear correctly in &lt;em&gt;Word&lt;/em&gt;, they do not when one creates a PDF.&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://web.archive.org/web/20140804225133im_/http:/s23.postimg.org/vsyn320ln/sshot_71.png" alt=""&gt;&lt;/p&gt;
+&lt;p&gt;Why does it happen?&lt;/p&gt;
+&lt;p&gt;The only typefaces that manage to do these things correctly are two SIL ones, even ALPHABETUM, which seems to have the most complete set of characters, does not have the correct italics.&lt;/p&gt;</description></item><item><title>Tests for cyrillic texts - Brill vs Times New Roman</title><link>http://typophile-archive.simon-cozens.org/103349/</link><pubDate>Tue, 28 May 2013 10:46:00 +0200</pubDate><guid>http://typophile-archive.simon-cozens.org/103349/</guid><description>&lt;p&gt;A tex input file to use with XeLaTeX and the corresponding pdf output in order to compare Brill with Times New Roman on a text of width 90mm. Files meant for the thread &lt;a href="http://web.archive.org/web/20150414120603/http:/www.typophile.com/node/103271" title="http://www.typophile.com/node/103271"&gt;http://www.typophile.com/node/103271&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The input text is utf8 encoded and should normally have extension .tex.&lt;/p&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Attachment&lt;/th&gt;
+ &lt;th&gt;Size&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="http://web.archive.org/web/20150414120603/http:/typophile.com/files/russian_90mm.txt"&gt;russian_90mm.txt&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;1.95 KB&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="http://web.archive.org/web/20150414120603/http:/typophile.com/files/russian_90mm.pdf"&gt;russian_90mm.pdf&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;36.62 KB&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;</description></item></channel></rss>

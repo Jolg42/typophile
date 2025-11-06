@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Calt Opentype Features-File Script on Typophile Archive</title><link>http://typophile-archive.simon-cozens.org/tags/calt-opentype-features-file-script/</link><description>Recent content in Calt Opentype Features-File Script on Typophile Archive</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Mon, 08 Jul 2013 18:28:00 +0200</lastBuildDate><atom:link href="http://typophile-archive.simon-cozens.org/tags/calt-opentype-features-file-script/index.xml" rel="self" type="application/rss+xml"/><item><title>Understanding the OpenType Engine Layout Algorithm</title><link>http://typophile-archive.simon-cozens.org/104444/</link><pubDate>Mon, 08 Jul 2013 18:28:00 +0200</pubDate><guid>http://typophile-archive.simon-cozens.org/104444/</guid><description>&lt;p&gt;I&amp;rsquo;m still trying to wrap my head around the &lt;a href="http://web.archive.org/web/20150420211601/http:/www.adobe.com/devnet/opentype/afdko/topic_feature_file_syntax.html#7.a"&gt;OpenType Layout Algorithm&lt;/a&gt;. Here&amp;rsquo;s what I have currently, largely adapted from &lt;a href="http://web.archive.org/web/20150420211601/http:/pecita.eu/"&gt;Pecita&lt;/a&gt; and &lt;a href="http://web.archive.org/web/20150420211601/http:/pecita.net/otfpoc/calt-en.xhtml"&gt;OTFPOC&lt;/a&gt;:&lt;/p&gt;
+&lt;p&gt;``&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;lookup calt_pass_1 {
+ 
+ sub @can_2s' lookup plain_to_2s
+ @can_s2' lookup plain_to_s2;
+
+ sub @can_s2' lookup plain_to_s2	# matched in [roe][it] 
+ @can_2s' lookup plain_to_2s;
+
+
+ sub @can_2b' lookup plain_to_2b
+ @can_b2' lookup plain_to_b2;
+
+ sub @can_b2' lookup plain_to_b2
+ @can_2b' lookup plain_to_2b;
+ 
+} calt_pass_1;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;I&amp;rsquo;m trying to figure out what happens when this sort of thing is applied to an arbitrarily long text string. I&amp;rsquo;m making a script font for &lt;a href="http://web.archive.org/web/20150420211601/http:/www.frogorbits.com/qs/manual.pdf"&gt;Quikscript (3 MB PDF)&lt;/a&gt;, and I&amp;rsquo;d like to be able to correctly represent the highly-ligated Senior Quikscript when &amp;lsquo;calt&amp;rsquo; is turned on. If you&amp;rsquo;d like to see Quikscript, both Junior and Senior in action, turn to the antepenultimate page of the manual. Note that Senior Quikscript has a &lt;em&gt;lot&lt;/em&gt; of abbreviations that&amp;rsquo;re in use in the &amp;ldquo;As written in&amp;rdquo; section; you may want to have a look at the last word on the page, which is &amp;ldquo;impossible&amp;rdquo; written with only one penlift.&lt;/p&gt;</description></item></channel></rss>

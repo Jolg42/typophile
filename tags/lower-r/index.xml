@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Lower R on Typophile Archive</title><link>http://typophile-archive.simon-cozens.org/tags/lower-r/</link><description>Recent content in Lower R on Typophile Archive</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 28 May 2014 00:51:00 +0200</lastBuildDate><atom:link href="http://typophile-archive.simon-cozens.org/tags/lower-r/index.xml" rel="self" type="application/rss+xml"/><item><title>Fontlab, I need a better solution for Ligatures</title><link>http://typophile-archive.simon-cozens.org/116869/</link><pubDate>Wed, 28 May 2014 00:51:00 +0200</pubDate><guid>http://typophile-archive.simon-cozens.org/116869/</guid><description>&lt;p&gt;Hi,&lt;br&gt;
+First, I’m kind of new to this.&lt;br&gt;
+I’m about to create a Script font and I have some problems with the lower “r” and the other lower glyphs connected to it.&lt;/p&gt;
+&lt;p&gt;Am I supposed to do a ligature for every lower letter connected to the lower “r”? That sounds weird.&lt;br&gt;
+When I look at my script fonts installed on my computer there are no big amount of ligatures.&lt;/p&gt;
+&lt;p&gt;There must be some other solution to it.&lt;br&gt;
+When I look at fonts on MyFonts, like Ciao Bella, there are no ligatures for the lower r but when I write it in the “Sample text” field there is a more accurate connection between the lower “o” and the lower “r” and the “e” and the “r” and so on.&lt;/p&gt;</description></item></channel></rss>

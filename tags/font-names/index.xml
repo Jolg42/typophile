@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Font Names on Typophile Archive</title><link>http://typophile-archive.simon-cozens.org/tags/font-names/</link><description>Recent content in Font Names on Typophile Archive</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Tue, 24 Feb 2015 18:21:00 +0100</lastBuildDate><atom:link href="http://typophile-archive.simon-cozens.org/tags/font-names/index.xml" rel="self" type="application/rss+xml"/><item><title>Batch assign Windows names to Mac names?</title><link>http://typophile-archive.simon-cozens.org/123475/</link><pubDate>Tue, 24 Feb 2015 18:21:00 +0100</pubDate><guid>http://typophile-archive.simon-cozens.org/123475/</guid><description>&lt;p&gt;I&amp;rsquo;m on a Mac, though I used to have lots of Windows machines, and still have one real and several virtual Windows machines.&lt;/p&gt;
+&lt;p&gt;Among my thousands of uninstalled fonts are dozens of (mostly crappy) TTF fonts that have different file names, and have corresponding font names when listed in Windows, but are all listed as &amp;ldquo;New&amp;rdquo; in Mac OS X. I used ftxdumperfuser to dump the name table of one of them, and found table entries with type IDs 1 through 7, with the Microsoft platform names in platform ID 3 all filled in, but the Macintosh names in platform ID 1 all containing default values.&lt;/p&gt;</description></item><item><title>Font name please</title><link>http://typophile-archive.simon-cozens.org/102439/</link><pubDate>Mon, 22 Apr 2013 02:14:00 +0200</pubDate><guid>http://typophile-archive.simon-cozens.org/102439/</guid><description>&lt;p&gt;Could anyone help me identify this font ?&lt;/p&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Attachment&lt;/th&gt;
+ &lt;th&gt;Size&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="http://web.archive.org/web/20131022092530/http:/typophile.com/files/Screen%20Shot%202013-04-22%20at%2010.07.32.png"&gt;Screen Shot 2013-04-22 at 10.07.32.png&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;49.99 KB&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;</description></item></channel></rss>

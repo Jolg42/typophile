@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Donald Knuth on Typophile Archive</title><link>http://typophile-archive.simon-cozens.org/tags/donald-knuth/</link><description>Recent content in Donald Knuth on Typophile Archive</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Tue, 06 Aug 2013 11:41:00 +0200</lastBuildDate><atom:link href="http://typophile-archive.simon-cozens.org/tags/donald-knuth/index.xml" rel="self" type="application/rss+xml"/><item><title>Fetamont - a T1-completion of the metafont logo</title><link>http://typophile-archive.simon-cozens.org/105276/</link><pubDate>Tue, 06 Aug 2013 11:41:00 +0200</pubDate><guid>http://typophile-archive.simon-cozens.org/105276/</guid><description>&lt;p&gt;When you are familiar with the TeX/METAFONT-world you have probably already seen the logos of METAFONT, METAPOST or METATYPE1. They are made of the following glyphs:&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://web.archive.org/web/20150414045554im_/http:/typophile.com/files/aefmnopsty1_4274.png" alt=""&gt;&lt;/p&gt;
+&lt;p&gt;&amp;ldquo;AEFMNOPST&amp;rdquo; have been constructed in the METAFONT language by Donald. E. Knuth and &amp;ldquo;Y1&amp;rdquo; have been added by the METATYPE1-Team.&lt;/p&gt;
+&lt;p&gt;I have completed the font in two ways:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;I have added many glyphs, such that the T1-encoding table is complete now (T1 is also known as the EC- or Cork-encoding)&lt;/li&gt;
+&lt;li&gt;I have added some variants like &amp;ldquo;light ultracondensed&amp;rdquo; or &amp;ldquo;script&amp;rdquo;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src="http://web.archive.org/web/20150414045554im_/http:/typophile.com/files/smallspecimen_5329.png" alt=""&gt;&lt;/p&gt;</description></item></channel></rss>

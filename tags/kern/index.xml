@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Kern on Typophile Archive</title><link>http://typophile-archive.simon-cozens.org/tags/kern/</link><description>Recent content in Kern on Typophile Archive</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Tue, 05 Aug 2014 14:16:00 +0200</lastBuildDate><atom:link href="http://typophile-archive.simon-cozens.org/tags/kern/index.xml" rel="self" type="application/rss+xml"/><item><title>problem in kerning of single adjustment</title><link>http://typophile-archive.simon-cozens.org/118498/</link><pubDate>Tue, 05 Aug 2014 14:16:00 +0200</pubDate><guid>http://typophile-archive.simon-cozens.org/118498/</guid><description>&lt;p&gt;anyone knows why this problem is happening with kerning Alef letter in single adjustment? when you duplicated the same letter you will get bigger space then smaller then bigger then smaller.. etc&lt;/p&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Attachment&lt;/th&gt;
+ &lt;th&gt;Size&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="http://web.archive.org/web/20150424041507/http:/typophile.com/files/bs.png"&gt;bs.png&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;2.74 KB&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;</description></item><item><title>what is the best way to kerning in Volt? dx? or width?</title><link>http://typophile-archive.simon-cozens.org/117827/</link><pubDate>Tue, 08 Jul 2014 13:24:00 +0200</pubDate><guid>http://typophile-archive.simon-cozens.org/117827/</guid><description>&lt;p&gt;hi,&lt;/p&gt;
+&lt;p&gt;what is the best way to kerning in Volt? which value should I edit? dx? or width?&lt;/p&gt;
+&lt;p&gt;thanks&lt;/p&gt;</description></item><item><title>Lining v Oldstyle numerals</title><link>http://typophile-archive.simon-cozens.org/106462/</link><pubDate>Fri, 20 Sep 2013 14:04:00 +0200</pubDate><guid>http://typophile-archive.simon-cozens.org/106462/</guid><description>&lt;p&gt;When kerning fonts with both Lining and Oldstyle proportional numerals what is the generally accepted form when it comes to kerning? Are all numbers kerned with every other glyph or is it best just to kern 0-9 with all punctuation and parenteses/brackets/braces only? Interested to hear thoughts. Thanks.&lt;/p&gt;</description></item><item><title>Kerning Help</title><link>http://typophile-archive.simon-cozens.org/68994/</link><pubDate>Wed, 31 Mar 2010 19:23:00 +0200</pubDate><guid>http://typophile-archive.simon-cozens.org/68994/</guid><description>&lt;p&gt;Hi everyone,&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;m having issues with the kerning on a new logo. I&amp;rsquo;ve been staring at it for so long that I don&amp;rsquo;t know what looks right anymore (weeks). If anyone can give me some pointers or tell me how it looks to them, it&amp;rsquo;d be appreciated!&lt;/p&gt;
+&lt;p&gt;Thank you!&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://web.archive.org/web/20131013191055/http:/s296.photobucket.com/albums/mm177/gdghent/?action=view&amp;amp;current=karnival.jpg"&gt;Logo here&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Is it really bad to keep rebuilding the "kern" feature in fontlab?</title><link>http://typophile-archive.simon-cozens.org/68618/</link><pubDate>Mon, 22 Mar 2010 01:31:00 +0100</pubDate><guid>http://typophile-archive.simon-cozens.org/68618/</guid><description>&lt;p&gt;I keep changing things within the kerning and whenever I generate a font, it asks me if I want to rebuild the kern feature.&lt;/p&gt;
+&lt;p&gt;Sometimes, I get the dialog box when generating the OTF font file at the end of the exporting process&amp;hellip; and that&amp;rsquo;s when it freezes the program. the only safe way I can rebuild it is to rebuild it within the opentype window and then generate the font.&lt;/p&gt;</description></item><item><title>Kerning classes not being exported on Opentype font</title><link>http://typophile-archive.simon-cozens.org/68130/</link><pubDate>Sun, 07 Mar 2010 04:32:00 +0100</pubDate><guid>http://typophile-archive.simon-cozens.org/68130/</guid><description>&lt;p&gt;Ok, so I was using class based kerning and on the metrics window, everything seems to be working fine&amp;hellip; kerning values look like they should. &amp;ldquo;Class kerning with exceptions&amp;rdquo; is enabled in the Metrics window.&lt;/p&gt;
+&lt;p&gt;However, when I open up the preview window, I see that kerning is all messed up and not working like it should (seems like class kerning is being ignored).&lt;/p&gt;
+&lt;p&gt;I tried exporting the font and I still get that.&lt;/p&gt;</description></item></channel></rss>

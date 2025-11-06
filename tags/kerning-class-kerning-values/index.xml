@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Kerning Class Kerning Values on Typophile Archive</title><link>http://typophile-archive.simon-cozens.org/tags/kerning-class-kerning-values/</link><description>Recent content in Kerning Class Kerning Values on Typophile Archive</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Tue, 08 Jul 2014 13:24:00 +0200</lastBuildDate><atom:link href="http://typophile-archive.simon-cozens.org/tags/kerning-class-kerning-values/index.xml" rel="self" type="application/rss+xml"/><item><title>what is the best way to kerning in Volt? dx? or width?</title><link>http://typophile-archive.simon-cozens.org/117827/</link><pubDate>Tue, 08 Jul 2014 13:24:00 +0200</pubDate><guid>http://typophile-archive.simon-cozens.org/117827/</guid><description>&lt;p&gt;hi,&lt;/p&gt;
+&lt;p&gt;what is the best way to kerning in Volt? which value should I edit? dx? or width?&lt;/p&gt;
+&lt;p&gt;thanks&lt;/p&gt;</description></item><item><title>Kerning info</title><link>http://typophile-archive.simon-cozens.org/100097/</link><pubDate>Sun, 27 Jan 2013 02:10:00 +0100</pubDate><guid>http://typophile-archive.simon-cozens.org/100097/</guid><description>&lt;p&gt;Hi,&lt;br&gt;
+I have an old &amp;lsquo;work in progress&amp;rsquo; font that contains Latin, Greek and Cyrillic glyphs created by an old colleage who has since passed over, and it has class kerning values assigned inside the font, however, no glyphs have been assigned to the class set, using Font Forge to create an FEA file, I can see the following under GPOS:&lt;/p&gt;
+&lt;p&gt;@kc4_first_1 = [];&lt;br&gt;
+@kc4_first_2 = [];&lt;br&gt;
+@kc4_first_3 = [];&lt;br&gt;
+@kc4_first_4 = [];&lt;br&gt;
+@kc4_first_5 = [];&lt;br&gt;
+&amp;hellip;&amp;hellip;&amp;hellip;&amp;hellip;&amp;hellip;.. thru to&lt;br&gt;
+@kc4_first_180 = [];&lt;br&gt;
+@kc4_first_181 = [];&lt;br&gt;
+@kc4_first_182 = [];&lt;br&gt;
+@kc4_first_183 = [];&lt;br&gt;
+@kc4_first_184 = [];&lt;/p&gt;</description></item></channel></rss>

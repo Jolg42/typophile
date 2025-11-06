@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>DSIG on Typophile Archive</title><link>http://typophile-archive.simon-cozens.org/tags/dsig/</link><description>Recent content in DSIG on Typophile Archive</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Tue, 21 Oct 2014 06:51:00 +0200</lastBuildDate><atom:link href="http://typophile-archive.simon-cozens.org/tags/dsig/index.xml" rel="self" type="application/rss+xml"/><item><title>How to add Dummy DSIG to OpenType TT font?</title><link>http://typophile-archive.simon-cozens.org/120706/</link><pubDate>Tue, 21 Oct 2014 06:51:00 +0200</pubDate><guid>http://typophile-archive.simon-cozens.org/120706/</guid><description>&lt;p&gt;I need to add a Digital Signature to OpenType-TT fonts. I found some instructions but need to know how it gets into the font which I am making with FontLab on Mac (font is intended Windows)&amp;hellip;&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;Create a ttx file with a dummy DSIG table, like so:
+
+\&amp;lt;?xml version=&amp;#34;1.0&amp;#34; encoding=&amp;#34;ISO-8859-1&amp;#34;?\&amp;gt;
+
+00000001 00000000
+
+Then you can merge this into your OT/TTF like this:
+
+ttx -m font.ttf dsig.ttx
+
+This will decompile the ttf, add the DSIG table, and recompile in one step. Then the font will work as intended in MS Office (or so I have found in my testing thus far.) This is also easy to incorporate into other scripts.
+
+~~~~~~~~~~~~~~~~~~~~~~~~ 
+As a newbie to Python, XML and all that, can someone please just explain the process - without the coding. A step-by-step list of what happens, when. For example, do this, copy that, paste it there. Run this, build that. Otherwise all this coding talk is useless to me until I understand how the code gets into the font.
+
+I&amp;#39;m using a Mac and FontLab and I&amp;#39;m guessing FontLab has to run this ttx script in order to get the dummy DSIG into the TT font? So it should mean I can do that on the Mac and the resulting TTF will work on Windows?
+
+Thanks, 
+Adrian
+&lt;/code&gt;&lt;/pre&gt;</description></item></channel></rss>

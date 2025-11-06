@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Hints on Typophile Archive</title><link>http://typophile-archive.simon-cozens.org/tags/hints/</link><description>Recent content in Hints on Typophile Archive</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 27 Nov 2013 14:48:00 +0100</lastBuildDate><atom:link href="http://typophile-archive.simon-cozens.org/tags/hints/index.xml" rel="self" type="application/rss+xml"/><item><title>Horizontal and vertical stems in FontLab</title><link>http://typophile-archive.simon-cozens.org/107438/</link><pubDate>Wed, 27 Nov 2013 14:48:00 +0100</pubDate><guid>http://typophile-archive.simon-cozens.org/107438/</guid><description>&lt;p&gt;Hello everyone,&lt;br&gt;
+I&amp;rsquo;ve a question about horizontal and vertical stems in FontLab.&lt;br&gt;
+Going to Font Info &amp;ndash;&amp;gt; Hinting Settings &amp;ndash;&amp;gt; Standard stems (T1 hinting) it is possible to define values for horizontal and vertical font&amp;rsquo;s standard stems.&lt;br&gt;
+But when I&amp;rsquo;m in a blank Glyph Window is there a way to visualize horizontal and vertical hints based on those values?&lt;br&gt;
+I mean, how can I make those values useful for the designing process of the glyphs?&lt;br&gt;
+Thank you for your help!&lt;/p&gt;</description></item><item><title>Detecting Reverse PS Hints with Python</title><link>http://typophile-archive.simon-cozens.org/68438/</link><pubDate>Mon, 15 Mar 2010 16:25:00 +0100</pubDate><guid>http://typophile-archive.simon-cozens.org/68438/</guid><description>&lt;p&gt;Hey Everyone,&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;m stumped. Does anyone here know how to detect reversed postscript hints using Python in FontLab?&lt;/p&gt;
+&lt;p&gt;Here&amp;rsquo;s what I tried:&lt;br&gt;
+&lt;code&gt; font = fl.font glyphs = font.glyphs&lt;/code&gt;&lt;br&gt;
+&lt;code&gt;for index in range(len(fl.font)): glyph = fl.font[index] vhw = glyph.vhints.width if len(vhw) &amp;lt; 0: print glyph.name, vhw&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;I find there are two things wrong here (but I don&amp;rsquo;t know how to fix them).&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;FL py reports width as not being an attribute of hhints&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;len(vhw) &amp;lt; 0&lt;/code&gt; returns nothing even when I know those instances are present&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Any help is appreciated.&lt;/p&gt;</description></item><item><title>What is the difference between Hints and Links?</title><link>http://typophile-archive.simon-cozens.org/67989/</link><pubDate>Wed, 03 Mar 2010 07:56:00 +0100</pubDate><guid>http://typophile-archive.simon-cozens.org/67989/</guid><description>&lt;p&gt;Hi.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;ve been studying optimal hinting techniques for correct screen display of typefaces. I&amp;rsquo;ve read tens or hundreds of pages of text about hinting, and I&amp;rsquo;ve taken quite a few stabs at googling it (the word &amp;ldquo;link&amp;rdquo; is a pretty useless search term on the internet).&lt;/p&gt;
+&lt;p&gt;Still I can&amp;rsquo;t still quite grasp the difference between a hint and a link. Could someone here explain it to me?&lt;/p&gt;
+&lt;p&gt;Regards,&lt;br&gt;
+S.&lt;/p&gt;</description></item></channel></rss>

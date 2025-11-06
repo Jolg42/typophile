@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Fixed Width on Typophile Archive</title><link>http://typophile-archive.simon-cozens.org/tags/fixed-width/</link><description>Recent content in Fixed Width on Typophile Archive</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Tue, 07 Oct 2014 05:06:00 +0200</lastBuildDate><atom:link href="http://typophile-archive.simon-cozens.org/tags/fixed-width/index.xml" rel="self" type="application/rss+xml"/><item><title>Fixed Width Font Issue</title><link>http://typophile-archive.simon-cozens.org/120260/</link><pubDate>Tue, 07 Oct 2014 05:06:00 +0200</pubDate><guid>http://typophile-archive.simon-cozens.org/120260/</guid><description>&lt;p&gt;Hi everyone,&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;m trying to design a label using Futura Fixed-Width.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;m not entirely sure if this looks OK or if I should change the tracking to make it look better (I&amp;rsquo;m not a pro designer!).&lt;/p&gt;
+&lt;p&gt;Any suggestions on how this text could be spaced better or is it fine??&lt;/p&gt;
+&lt;p&gt;Thanks for helping out.&lt;/p&gt;
+&lt;p&gt;All the best..&lt;/p&gt;
+&lt;p&gt;Jason&lt;/p&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Attachment&lt;/th&gt;
+ &lt;th&gt;Size&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="http://web.archive.org/web/20150417110139/http:/typophile.com/files/mask_0.jpg"&gt;mask.jpg&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;64.05 KB&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;</description></item><item><title>Tabular unit symbols</title><link>http://typophile-archive.simon-cozens.org/116307/</link><pubDate>Tue, 06 May 2014 06:15:00 +0200</pubDate><guid>http://typophile-archive.simon-cozens.org/116307/</guid><description>&lt;p&gt;Assuming a typeface which defaults to proportional figures, do you think it’s sane and user-friendly to adjust more characters than just digits when fixed-width, tabular &lt;code&gt;tnum&lt;/code&gt; numerals get activated? I’m thinking about making currency and other symbols the same width as figures then, so they align properly.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;feature tnum {
+ @digits = [zero one two three four five six seven eight nine];
+ @digits.pnum = @digits;
+ @digits.tnum = [zero.tnum one.tnum two.tnum three.tnum four.tnum five.tnum six.tnum seven.tnum eight.tnum nine.tnum];
+ sub @digits.pnum by @digits.tnum;
+ lookup units {
+ @currencysymbols = [dollar cent sterling currency yen Euro]
+ @unitsymbols = [percent @currencysymbols]
+ @currencysymbols.tnum = [dollar.tnum cent.tnum sterling.tnum currency.tnum yen.tnum Euro.tnum]
+ @unitsymbols.tnum = [percent.tnum @currencysymbols.tnum]
+ sub @digits @unitsymbols' by @unitsymbols.tnum;
+ sub @digits @spaces @unitsymbols' by @unitsymbols.tnum;
+ sub @unitsymbols' @digits by @unitsymbols.tnum;
+ sub @unitsymbols' @spaces @digits by @unitsymbols.tnum;
+ } units;
+} tnum;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;I also have written code to deal with rather simple SI unit symbols including prefixes.&lt;/p&gt;</description></item><item><title>Fixed width letterpress font</title><link>http://typophile-archive.simon-cozens.org/68188/</link><pubDate>Tue, 09 Mar 2010 01:37:00 +0100</pubDate><guid>http://typophile-archive.simon-cozens.org/68188/</guid><description>&lt;p&gt;Hi typophiles! I&amp;rsquo;ve been looking frantically for this font. A printer told me it is an old letterpress font used several decades ago. I&amp;rsquo;m very keen to get my hands on the digital equivalent.&lt;/p&gt;
+&lt;p&gt;It seems like a fixed-width sans. It reminds me of the typeface used for embossing serial numbers in metal plates.&lt;/p&gt;
+&lt;p&gt;Hope you guys can help me out.&lt;/p&gt;
+&lt;p&gt;Thanks!&lt;/p&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Attachment&lt;/th&gt;
+ &lt;th&gt;Size&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;a href="http://web.archive.org/web/20131014142855/http:/typophile.com/files/font_48.gif"&gt;font.gif&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;5.12 KB&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;</description></item></channel></rss>
