@@ -30,3 +30,7 @@ title = 'Typophile Archive'
 # Permalinks
 [permalinks]
   articles = "/:contentbasename/"
+
+[security]
+  # https://gohugo.io/content-management/shortcodes/#inline
+  enableInlineShortcodes = true
