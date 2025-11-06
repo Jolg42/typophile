@@ -1,2 +1,6 @@
 # Ignore database file because GitHub limits the file size to 100 MB
 typophile.db
+
+# hugo-site/content/articles/
+hugo-site/public/
+
