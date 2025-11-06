@@ -22,7 +22,7 @@ echo ""
 
 # Create a temporary directory
 # TEMP_DIR=$(mktemp -d)
-TEMP_DIR=/var/folders/qt/13pk8tq5113437vp1xr2l_s40000gn/T/tmp.uPlXfMg0Y7
+TEMP_DIR=/var/folders/qt/13pk8tq5113437vp1xr2l_s40000gn/T/tmp.wY7T2wTElE
 echo "Using temp directory: $TEMP_DIR"
 
 # # Copy public files to temp (use rsync or tar to handle large file counts)

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Unicase on Typophile Archive</title><link>http://typophile-archive.simon-cozens.org/tags/unicase/</link><description>Recent content in Unicase on Typophile Archive</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 06 Mar 2013 08:22:00 +0100</lastBuildDate><atom:link href="http://typophile-archive.simon-cozens.org/tags/unicase/index.xml" rel="self" type="application/rss+xml"/><item><title>What is this Unicase font</title><link>http://typophile-archive.simon-cozens.org/101156/</link><pubDate>Wed, 06 Mar 2013 08:22:00 +0100</pubDate><guid>http://typophile-archive.simon-cozens.org/101156/</guid><description>&lt;p&gt;Can someone tell me what this unicase font is please&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Unicase on Typophile Archive</title><link>https://jolg42.github.io/typophile/tags/unicase/</link><description>Recent content in Unicase on Typophile Archive</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 06 Mar 2013 08:22:00 +0100</lastBuildDate><atom:link href="https://jolg42.github.io/typophile/tags/unicase/index.xml" rel="self" type="application/rss+xml"/><item><title>What is this Unicase font</title><link>https://jolg42.github.io/typophile/101156/</link><pubDate>Wed, 06 Mar 2013 08:22:00 +0100</pubDate><guid>https://jolg42.github.io/typophile/101156/</guid><description>&lt;p&gt;Can someone tell me what this unicase font is please&lt;/p&gt;
 &lt;table&gt;
  &lt;thead&gt;
  &lt;tr&gt;
@@ -12,7 +12,7 @@
  &lt;td&gt;31.15 KB&lt;/td&gt;
  &lt;/tr&gt;
  &lt;/tbody&gt;
-&lt;/table&gt;</description></item><item><title>Problems with descenders in Microsoft Word</title><link>http://typophile-archive.simon-cozens.org/100656/</link><pubDate>Mon, 18 Feb 2013 14:01:00 +0100</pubDate><guid>http://typophile-archive.simon-cozens.org/100656/</guid><description>&lt;p&gt;Hello,&lt;/p&gt;
+&lt;/table&gt;</description></item><item><title>Problems with descenders in Microsoft Word</title><link>https://jolg42.github.io/typophile/100656/</link><pubDate>Mon, 18 Feb 2013 14:01:00 +0100</pubDate><guid>https://jolg42.github.io/typophile/100656/</guid><description>&lt;p&gt;Hello,&lt;/p&gt;
 &lt;p&gt;After generating my font I try it in MS Word and all of descenders and ascenders of font are cut off.&lt;br&gt;
 This strange effect have place in big sizes as 72pt etc.&lt;br&gt;
 As I understand the problem goes to font info but&amp;hellip; settings is standart. Maybe the cause is font unicase and something wrong with value of Cap-height or x-height?..&lt;/p&gt;
